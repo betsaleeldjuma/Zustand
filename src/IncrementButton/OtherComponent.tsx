@@ -1,4 +1,4 @@
-import { useCounter } from "../store"
+import { useCounter } from "./store"
 
 const OtherComponent = () => {
     const increment = useCounter((state) => state.increment)
